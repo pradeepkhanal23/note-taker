@@ -11,7 +11,16 @@ const app = express();
 //setting up the port number
 const PORT = 3000;
 
+//Middleware to serve up static assets from the public folder
 app.use(express.static("public"));
+
+//middleware for parsing json and urlencoded form data
+app.use(express.json());
+app.use(
+  express.urlencoded({
+    extended: true,
+  })
+);
 
 //with the help of middleware, we redirect anything that starts with "/api"
 // api will then handle the api requests
