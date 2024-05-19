@@ -21,15 +21,9 @@ app.use(
     extended: true,
   })
 );
-
 //with the help of middleware, we redirect anything that starts with "/api"
 // api will then handle the api requests
 app.use("/api", api);
-
-//index.html file is retured when the user is in the homepage
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
-});
 
 //notes.html file is retured when the user goes to "/notes" router from the homepage
 app.get("/notes", (req, res) => {
