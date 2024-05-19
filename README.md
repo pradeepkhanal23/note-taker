@@ -32,7 +32,7 @@ The following GIF shows the web application's appearence and functionality:
     - Clone this respository to ypour local machine using the following command:
 
       ```sh
-      git clone git@github.com:pradeepkhanal23/note-taker.git
+        git clone git@github.com:pradeepkhanal23/note-taker.git
       ```
 
 2.  **Navigate to the Project Directory**:
@@ -40,7 +40,7 @@ The following GIF shows the web application's appearence and functionality:
     - Open your terminal or command prompt and navigate to the directory where you cloned the repository:
 
       ```sh
-      cd note-taker
+        cd note-taker
       ```
 
 3.  **Install Dependencies**:
@@ -48,16 +48,16 @@ The following GIF shows the web application's appearence and functionality:
     - Install the necessary dependencies by running the following command:
 
       ```sh
-      npm install
+        npm install
       ```
 
 4.  **Start the Server**:
 
     - Start the server by running this command:
 
-           ```sh
-           npm run dev
-           ```
+      ```sh
+        npm run dev
+      ```
 
       This command will start the server and make the application accessible at http://localhost:3000 in your web browser.
 
